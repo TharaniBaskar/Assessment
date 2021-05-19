@@ -18,8 +18,8 @@ post=[{"name":"tharani","email":"aaa.@gmail.com","phonenumber":"7685432101"},
       {"name":"rani","email":"iii.@gmail.com","phonenumber":"7685432109"},
       {"name":"priya","email":"jjj.@gmail.com","phonenumber":"7685432110"}
       ]
-z=collection.insert_many(post)
-print(z)
+collection.insert_many(post)
+
 
 
 
